@@ -126,7 +126,7 @@ def train(args):
     best_mrr = 0
     best_hit = 0
     best_epoch = 0
-    es = 0
+    es = 0   # early stop
     model_usage = torch.cuda.memory_allocated()
     # print('the usage of GPU is {:.4f} GB'.format((model_usage - initial) / 1024 / 1024 / 1024))
     while True:
