@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37b9f9fb-52d7-47aa-9d66-152b0545a42e" name="Default Changelist" comment="home">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="37b9f9fb-52d7-47aa-9d66-152b0545a42e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ICEWS4/if_sorted.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ICEWS4/stat.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ICEWS4/test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ICEWS4/train.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +55,7 @@
       <workItem from="1669642822806" duration="469000" />
       <workItem from="1669789359596" duration="48000" />
       <workItem from="1669864965754" duration="117000" />
-      <workItem from="1669946452610" duration="853000" />
+      <workItem from="1669946452610" duration="2116000" />
     </task>
     <task id="LOCAL-00001" summary="home">
       <created>1669642949491</created>
@@ -83,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669865059437</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="upload">
+      <created>1669947910995</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669947910995</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +106,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="home" />
-    <option name="LAST_COMMIT_MESSAGE" value="home" />
+    <MESSAGE value="upload" />
+    <option name="LAST_COMMIT_MESSAGE" value="upload" />
   </component>
 </project>

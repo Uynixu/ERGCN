@@ -158,10 +158,9 @@ if __name__ == '__main__':
     parser.add_argument("--lr", type=float, default=1e-3)
     parser.add_argument('--batch_size', type=int, default=512)
     parser.add_argument('--reverse', type=bool, default=False)
-    parser.add_argument('--type', type=str, default='all')
     parser.add_argument('--name', type=int, default=1)
     parser.add_argument('--filter', type=int, default=0)
-    parser.add_argument('--split', type=bool, default=False)
+
     args = parser.parse_args()
     print(args)
     test(args)
