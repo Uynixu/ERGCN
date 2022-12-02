@@ -220,7 +220,7 @@ if __name__ == '__main__':
     parser.add_argument('--alpha', type=float, default=0.1)
     parser.add_argument('--layers', type=int, default=2)
     parser.add_argument('--name', type=int, default=1)
-    parser.add_argument('--type', type=str, default='all')
+
     args = parser.parse_args()
     print(args)
     train(args)
