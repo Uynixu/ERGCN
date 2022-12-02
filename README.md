@@ -23,6 +23,8 @@ Then, training the global model:
 python pretrain.py -d WIKI --dropout 0.2 --h_dim 200 --max_epochs 250 --seq_len 5 --lr 0.001 --batch_size 96 --gpu 0
 ~~~
 
+Notice of the hyper-parameters:
+
 -d ***dataset_name***
 
 --dropout ***dropout_rate***
@@ -51,13 +53,13 @@ python train.py -d WIKI --dropout 0.2 --h_dim 200 --max_epochs 20 --seq_len 5 --
 
 notation of the new commands:
 
---reverse :Means the direction of training. If **FALSE**, the model uses the **subjects** to predict the **objects** in the Temporal Knowledge Graphs, vice versa.
+--reverse :means the direction of training. If **FALSE**, the model uses the **subjects**  and relation types to predict the **objects** in the Temporal Knowledge Graphs, vice versa.
 
---alpha :Means the balance weight before loss1 and loss2
+--alpha :means the balance weight between loss1 and loss2
 
---layers :Means the rippled size of nieghbor nodes around the source node. If the *--layers* is less than the layer number of ERGCN block used in the model, model will not update new features of the node from its neighbor nodes in the aggregator block.
+--layers :means the rippled layer size of nieghbor nodes around the source node. If the *--layers* is less than the layer number of ERGCN block used in the model, the further layer of ERGCN block will not update new features of the node from its neighbor nodes in the aggregator.
 
---name :Used for saving different model types(use *int*, not *str*).
+--name :used for naming the saved model types(use *int*, not *str*).
 
 ## Testing 
 
@@ -71,4 +73,4 @@ notation of the new commands:
 
 --filter :metric for testing. If **zero**, print the **raw results**. Else, print the results with ground truth.
 
-Notice that the
+Notice that  the command *--name* should be the same in the training set.
